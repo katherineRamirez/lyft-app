@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+  position: relative;
+  background: #cb60b3; /* Old browsers */
+  background: -webkit-linear-gradient(bottom left, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+  background: -o-linear-gradient(bottom left, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+  background: linear-gradient(to top right, #cb60b3 0%, #ad1283 50%, #de47ac 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+  height: 100vh;
+}
+#first-section{
+  position: absolute;
+  bottom: 1em;
+  top: 0.50em;
+  display: none;
+}
+.icon-logo-white{
+	width: 10em;
+	height: 10em;
+	margin-top: 50%;
+	margin-left: 6.5em;
+}
+.img-cover{
+	background-image: url(../img/img-lyft.jpg);
+	width: 100%;
+	height: 100vh;
+}
+.icon-logo-white2{
+	width: 5em;
+	height: 5em;
+	margin-top:1em;
+	margin-left: 33%;
+}
+.icon-logo-pink{
+	width: 10em;
+	height: 10em;
+	margin-top: 30%;
+	margin-left: 6.5em;
+}
+.btn1, .btn2{
+	padding: 1em;
+	background: transparent;
+  color: white;
+  margin-top: 4em;
+}
+.btn2{
+  position: relative;
+  right: 4em;
+}
+.form-country{
+  background: white;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  bottom: 1em;
+  top: 0.40em;
+}
+.title-form{
+  position: absolute;
+  left: 30%;
+}
+.text-form{
+  position: absolute;
+  left: 20%;
+  top: 4em;
+}
+.line-form{
+  width: 100%;
+  position: absolute;
+  top: 6em;
+}
+.btn-default{
+  position: absolute;
+  top: 8em;
+  left: 3em;
+  padding: 1em 3em;
+}
+.country{
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  top: 8.3em;
+  left: 3.3em;
+}
+.input-country{
+  position: absolute;
+  top: 9em;
+  left: 11em;
+}
+.next{
+  position: absolute;
+  top: 15em;
+  padding: 0.70em;
+  width: 13em;
+  right: 9em;
+}
